@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPrefActivity"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    android:padding="30dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_fn"
+        android:hint="FirstName"
+        android:padding="15dp"
+        android:background="@color/cardview_light_background"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_ln"
+        android:hint="LastName"
+        android:padding="15dp"
+        android:background="@color/cardview_light_background"
+        android:layout_marginTop="10dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="30dp"
+    android:layout_gravity="center">
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@id/tv_add"
+            android:layout_weight="1"
+            android:onClick="MyClick"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button"/>
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="MyClick"
+
+        android:id="@+id/tv_display"
+        android:background="@drawable/button"
+        android:text="Display"/>
+
+
+
+</LinearLayout>
+</LinearLayout>
